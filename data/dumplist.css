@@ -12,12 +12,13 @@ li {
 }
 
 body {
-    background-image: url("./flower.jpg");
+    /* 2014-06-18: remove specific background
+    background-image: url("./flower.jpg"); */
 }
 
 h4 {
     color: black;
-    font-style: bold;
+    font-weight: bold; /* 2014-06-12: fix "font-style: bold" */
 }
 
 table {
