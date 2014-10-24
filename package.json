@@ -2,10 +2,13 @@
   "name": "addon-list-dumper",
   "title": "Addon List Dumper (restartless)",
   "id": "addonListDumper",
-  "description": "This extension adds a widget on the navigation bar. \n\nWhen this widget is pushed, a panel will show the addons list",
+  "description": "This extension adds a widget on the navigation bar.\n\nWhen this widget is pushed, a panel will show the addons list",
   "author": "monkey413",
+  "contributors": [
+        "Blutin"
+    ],
   "license": "GPL 3.0",
-  "version": "0.1",
+  "version": "0.1.1a1pre5",
   "homepage": "https://github.com/monkey413/Addon-List-Dumper-restartless",
 
 
@@ -49,19 +52,19 @@
         "title": "Total",
         "description": "show the total of items",
         "type": "bool",
-        "value": false
+        "value": true
     },
     {
   	"name": "date",
         "title": "Date",
         "description": "show the date of today",
         "type": "bool",
-        "value": false
+        "value": true
     },
     {
   	"name": "installDate",
         "title": "Install Date",
-        "description": "show the install date of addons",
+       "description": "show the install date of addons",
         "type": "bool",
         "value": false
     },
