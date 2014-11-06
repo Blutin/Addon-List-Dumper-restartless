@@ -6,7 +6,7 @@ text/plain;Plain Text;[[Last updated: %lastupd%
 {{extension:%name% %version% %disabled-text%
 }}
 ]][[*** Themes (%themes_count%)
-{{theme:%name%
+{{theme:%name% %selected-text%
 }}
 ]][[*** Plugins
 {{plugin:%name%
